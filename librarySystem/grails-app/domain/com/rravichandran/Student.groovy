@@ -3,13 +3,15 @@ package com.rravichandran
 class Student {
 String name
 String email
-String username
+String userName
 String password
 int studentId
 Course title
 String toString()
 {
 return title }
+
+static hasMany=[books: Book, book reviews: BookReview]
 
 
     static constraints = {

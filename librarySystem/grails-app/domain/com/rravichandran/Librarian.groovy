@@ -4,13 +4,15 @@ class Librarian {
 String name
 String email
 String office
-String username
+String userName
 String password
 int telephone
 Library name
 String toString()
 {
 return name }
+
+
 
     static constraints = {
 name blank:false, nullable:false

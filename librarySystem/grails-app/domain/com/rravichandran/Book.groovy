@@ -13,6 +13,8 @@ String toString()
 {
 return name }
 
+static hasMany=[book reviews: BookReview]
+
     static constraints = {
 title blank:false, nullable:false
 subject blank:false, nullable:false
