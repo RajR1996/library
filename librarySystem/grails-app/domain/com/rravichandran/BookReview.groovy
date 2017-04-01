@@ -3,7 +3,7 @@ package com.rravichandran
 class BookReview {
 String reviewTitle
 Book title
-date dateCreated
+Date dateCreated
 Student name
 String review
 
@@ -14,7 +14,7 @@ return reviewTitle }
 
 
     static constraints = {
-bookTitle blank:false, nullable:false
+reviewTitle blank:false, nullable:false
 title blank:false, nullable:false
 dateCreated blank:false, nullable:false
 name blank:false, nullable:false

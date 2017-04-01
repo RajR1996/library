@@ -11,13 +11,13 @@ String toString()
 {
 return title }
 
-static hasMany=[books: Book, book reviews: BookReview]
+static hasMany=[books: Book, bookReviews: BookReview]
 
 
     static constraints = {
 name blank:false, nullable:false
 email blank:false, nullable:false, email:true
-username blank:false, nullable:false, unique:true
+userName blank:false, nullable:false, unique:true
 password blank:false, nullable:false, password:true
 studentId blank:false, nullable:false, unique:true
 title blank:false, nullable:false

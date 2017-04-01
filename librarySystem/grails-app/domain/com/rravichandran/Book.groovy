@@ -5,15 +5,15 @@ String title
 String subject
 String author
 String isbn
-date dateBorrowed
-date returnDate
+Date dateBorrowed
+Date returnDate
 Student name
 Boolean overdue
 String toString()
 {
 return name }
 
-static hasMany=[book reviews: BookReview]
+static hasMany=[bookReviews: BookReview]
 
     static constraints = {
 title blank:false, nullable:false

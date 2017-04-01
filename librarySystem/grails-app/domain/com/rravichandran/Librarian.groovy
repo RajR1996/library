@@ -7,10 +7,10 @@ String office
 String userName
 String password
 int telephone
-Library name
+Library building
 String toString()
 {
-return name }
+return building }
 
 
 
@@ -18,7 +18,7 @@ return name }
 name blank:false, nullable:false
 email blank:false, nullable:false, email:true
 office blank:false, nullable:false
-username blank:false, nullable:false, unique:true
+userName blank:false, nullable:false, unique:true
 password blank:false, nullable:false, password:true
 telephone blank:false, nullable:false, size:11..11
 library blank:false, nullable:false

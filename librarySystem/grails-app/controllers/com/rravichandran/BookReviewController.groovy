@@ -2,7 +2,7 @@ package com.rravichandran
 
 class BookReviewController {
 
-    def scaffold= Book Review
+    def scaffold= BookReview
 
     def index() { }
 }
