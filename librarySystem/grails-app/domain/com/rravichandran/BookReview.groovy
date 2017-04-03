@@ -11,6 +11,7 @@ String toString()
 {
 return bookReview }
 
+static belongsTo = Book
 
 
     static constraints = {
