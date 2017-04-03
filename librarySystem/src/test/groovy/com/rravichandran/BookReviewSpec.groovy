@@ -16,5 +16,5 @@ class BookReviewSpec extends Specification {
     }
 
 
-    
+
 }

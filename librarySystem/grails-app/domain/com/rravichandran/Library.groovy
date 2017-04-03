@@ -6,6 +6,9 @@ String address
 String openingHours
 String location
 int studySpaces
+String toString(){
+return building
+}
 
 static hasMany=[librarians: Librarian, books: Book, students: Student]
 
@@ -14,7 +17,7 @@ building blank:false, nullable:false
 address blank:false, nullable:false
 openingHours blank:false, nullable:false
 location blank:false, nullable:false
-studySpaces blank:false, nullable:false, min:5, max:1000
+studySpaces blank:false, nullable:false
 
 
     }

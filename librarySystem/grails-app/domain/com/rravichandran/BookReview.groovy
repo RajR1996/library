@@ -1,23 +1,23 @@
 package com.rravichandran
 
 class BookReview {
-String reviewTitle
-Book title
+String bookReview
+Book book
 Date dateCreated
-Student name
+Student student
 String review
 
 String toString()
 {
-return reviewTitle }
+return bookReview }
 
 
 
     static constraints = {
-reviewTitle blank:false, nullable:false
-title blank:false, nullable:false
+bookReview blank:false, nullable:false
+book blank:false, nullable:false
 dateCreated blank:false, nullable:false
-name blank:false, nullable:false
+student blank:false, nullable:false
 review blank:false, nullable:false
 
 

@@ -6,10 +6,10 @@ String email
 String userName
 String password
 int studentId
-Course title
+Course course
 String toString()
 {
-return title }
+return name }
 
 static hasMany=[books: Book, bookReviews: BookReview]
 
@@ -20,7 +20,8 @@ email blank:false, nullable:false, email:true
 userName blank:false, nullable:false, unique:true
 password blank:false, nullable:false, password:true
 studentId blank:false, nullable:false, unique:true
-title blank:false, nullable:false
+course blank:false, nullable:false
+
 
     }
 }
