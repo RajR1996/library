@@ -7,9 +7,9 @@ String userName
 String password
 int studentId
 Course course
-String toString()
-{
-return name }
+String toString(){
+"$name, $email, $userName"
+}
 
 static hasMany=[books: Book, bookReviews: BookReview]
 
