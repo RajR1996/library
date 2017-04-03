@@ -4,7 +4,7 @@ class BootStrap {
 
     def init = { servletContext ->
 
-	def library1= new Library (
+	/*def library1= new Library (
 		building:'Adsetts',
 		address:'Howard Street, Sheffield, S1 1WB',
 		openingHours:'7:00am-12:00am',
@@ -115,7 +115,7 @@ class BootStrap {
 		dateCreated: new Date('20/03/2015'),
 		student: student2,
 		review:'Helped for a report'
-	).save()
+	).save()*/
 
     }
     def destroy = {

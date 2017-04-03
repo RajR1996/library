@@ -15,6 +15,12 @@ class CourseSpec extends Specification {
     def cleanup() {
     }
 
+    void totalFees(){
+	when: "A course has a title and fees"
+	def computing = new Course(title: 'Computing', tuitionFees:9000)
+	then: "The calculate method will show the total fees"
+	computing.calculateFees()==36000
+    }
 
 
 }
