@@ -3,7 +3,7 @@
 <head>
     <meta name="layout" content="main"/>
     <title>Welcome to the Library System</title>
-
+    <asset:stylesheet src="librarysystem.css"/>	
     <asset:link rel="icon" href="favicon.ico" type="image/x-ico" />
 </head>
 <body>
@@ -15,13 +15,13 @@
 
             <p>
                 Congratulations, you have successfully accessed the library system here you can access 
-		a part of the system depending on who you are whether you're a librarian or student.
+		a part of the system depending on who you are whether you're a librarian or student. </p><br>
             
 
 		<div class="row">
 			<asset:image src="butler.jpg"/>
 		</div>
-	    </p>
+	    
 
         </section>
     </div>

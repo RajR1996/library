@@ -8,7 +8,7 @@
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-    <asset:stylesheet src="application.css"/>
+    <asset:stylesheet src="main.css"/>
 
     <g:layoutHead/>
 </head>
@@ -17,6 +17,10 @@
 	<div class="row">
 		<asset:image src="library_banner.jpg"/>
 
+		<g:librarianloginToggle />
+		
+		
+		
 
 	</div>
 <g:layoutBody/>
