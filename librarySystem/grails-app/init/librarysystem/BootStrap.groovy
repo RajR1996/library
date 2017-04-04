@@ -26,7 +26,8 @@ class BootStrap {
 		leader:'Lynne Dawson',
 		department:'Information Technology',
 		description:'Everything tech related',
-		studyMode:'Full-Time'
+		studyMode:'Full-Time',
+		tuitionFees:9000.00
 	).save()
 
 	def course2= new Course (
@@ -35,7 +36,8 @@ class BootStrap {
 		leader:'Matthew Love',
 		department:'Business & IT',
 		description:'Everything business related',
-		studyMode:'Part-Time'
+		studyMode:'Part-Time',
+		tuitionFees:9000.00
 	).save()
 
 	def student1= new Student (
@@ -104,7 +106,7 @@ class BootStrap {
 	def bookreview1= new BookReview (
 		bookReview:'Coding Help Review JS',
 		book: book1,
-		dateCreated: new Date('18/03/2015'),
+		dateMade: new Date('18/03/2015'),
 		student: student1,
 		review:'Helped programme an app'
 	).save()
@@ -112,7 +114,7 @@ class BootStrap {
 	def bookreview2= new BookReview (
 		bookReview:'Business Methods Review JF',
 		book: book2,
-		dateCreated: new Date('20/03/2015'),
+		dateMade: new Date('20/03/2015'),
 		student: student2,
 		review:'Helped for a report'
 	).save()*/
