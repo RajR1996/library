@@ -15,6 +15,19 @@ class LibrarySpec extends Specification {
     def cleanup() {
     }
 
+    void "upper case test"(){
+		when: "The name begins with a lower letter"
+			def ho1 = new Library(building: 'howard')
+		then: "Validation should fail"
+			!ho1.validate()
+
+		when: "The name begins with an uppercase letter"
+			ho1 = new Library(building: 'Howard')
+
+		then: "Validation should pass"
+			!ho1.validate()
 
 
+    }
+	
 }
