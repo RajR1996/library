@@ -15,6 +15,19 @@ class LibrarianSpec extends Specification {
     def cleanup() {
     }
 
+    void "invalidEmail"(){
+	when: "A librarian has an  email"
+	
+	def emma=new Librarian(name:'Emma Briggs', email: 'emma.wallace', office: 'Cantor 987', userName: 'emmabriggs', password: 'password', telephone: '01147564365', library: 'Owen')
+
+	
+	
+	then: "The invalidEmail will check if the email is invalid and validation will fail if it is invalid"
+	
+	!emma.validate()
+ 
+    }
+
 
 
 }
