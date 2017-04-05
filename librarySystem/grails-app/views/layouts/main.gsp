@@ -18,6 +18,7 @@
 		<asset:image src="library_banner.jpg"/>
 
 		<g:librarianloginToggle />
+		<g:studentloginToggle />
 		
 		
 		
