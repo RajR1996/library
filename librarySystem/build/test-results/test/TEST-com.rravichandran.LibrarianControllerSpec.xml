@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.rravichandran.LibrarianControllerSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2017-04-01T07:45:54" hostname="b4025068" time="0.502">
+  <properties/>
+  <testcase name="test something" classname="com.rravichandran.LibrarianControllerSpec" time="0.502">
+    <failure message="Condition not satisfied:&#10;&#10;true == false&#10;     |&#10;     false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+true == false
+     |
+     false
+
+	at com.rravichandran.LibrarianControllerSpec.test something(LibrarianControllerSpec.groovy:20)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

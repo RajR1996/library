@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.rravichandran.BookReviewSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2017-04-07T00:53:35" hostname="b4025068" time="0.436">
+  <properties/>
+  <testcase name="uppercase test" classname="com.rravichandran.BookReviewSpec" time="0.436">
+    <failure message="groovy.lang.MissingMethodException: No signature of method: com.rravichandran.BookReviewSpec.BookReview() is applicable for argument types: (java.util.LinkedHashMap) values: [[bookReview:lordAS1]]" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: com.rravichandran.BookReviewSpec.BookReview() is applicable for argument types: (java.util.LinkedHashMap) values: [[bookReview:lordAS1]]
+	at com.rravichandran.BookReviewSpec.uppercase test(BookReviewSpec.groovy:20)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

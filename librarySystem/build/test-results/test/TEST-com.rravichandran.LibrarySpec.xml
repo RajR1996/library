@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.rravichandran.LibrarySpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-04-07T00:53:32" hostname="b4025068" time="2.249">
+  <properties/>
+  <testcase name="upper case test" classname="com.rravichandran.LibrarySpec" time="2.249"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

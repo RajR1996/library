@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.rravichandran.LibrarianSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-04-07T00:53:36" hostname="b4025068" time="0.54">
+  <properties/>
+  <testcase name="invalidEmail" classname="com.rravichandran.LibrarianSpec" time="0.54"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

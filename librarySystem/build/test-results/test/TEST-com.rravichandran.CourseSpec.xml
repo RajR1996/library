@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.rravichandran.CourseSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-04-07T00:53:35" hostname="b4025068" time="0.396">
+  <properties/>
+  <testcase name="totalFees" classname="com.rravichandran.CourseSpec" time="0.396"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

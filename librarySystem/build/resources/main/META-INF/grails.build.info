@@ -1,0 +1,6 @@
+#Fri, 07 Apr 2017 01:35:02 +0100
+
+grails.env=test
+info.app.version=0.1
+info.app.grailsVersion=3.2.3
+info.app.name=librarySystem
