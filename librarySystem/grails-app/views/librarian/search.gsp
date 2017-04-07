@@ -12,7 +12,7 @@
 			<h1>Librarian Search Form</h1>
 		
 		<formset>
-		<legend> Seach Form for Librarians</legend>
+		<legend> Seach Form for Librarians to find Students</legend>
 		<table>
 		<g:form action="results">
 
